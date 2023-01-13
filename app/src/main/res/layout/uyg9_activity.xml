@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/TekSayilar"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:onClick="TekSayilar">
+
+    <EditText
+        android:id="@+id/txtSayi4"
+        android:layout_width="388dp"
+        android:layout_height="49dp"
+        android:ems="10"
+        android:gravity="start|top"
+        android:inputType="textMultiLine"
+        tools:layout_editor_absoluteX="8dp"
+        tools:layout_editor_absoluteY="5dp" />
+
+    <Button
+        android:id="@+id/ciftSayilar"
+        android:layout_width="405dp"
+        android:layout_height="53dp"
+        android:onClick="ciftSayilar"
+        android:text="ÇiftSayılar"
+        tools:layout_editor_absoluteX="5dp"
+        tools:layout_editor_absoluteY="549dp" />
+
+    <Button
+        android:id="@+id/TekSayilar"
+        android:layout_width="401dp"
+        android:layout_height="50dp"
+        android:onClick="teksayilar"
+        android:text="TekSayılar"
+        tools:layout_editor_absoluteX="5dp"
+        tools:layout_editor_absoluteY="602dp" />
+
+    <Button
+        android:id="@+id/tümliste"
+        android:layout_width="401dp"
+        android:layout_height="51dp"
+        android:onClick="tümliste"
+        android:text="TümSayılar"
+        tools:layout_editor_absoluteX="6dp"
+        tools:layout_editor_absoluteY="643dp" />
+</androidx.constraintlayout.widget.ConstraintLayout>

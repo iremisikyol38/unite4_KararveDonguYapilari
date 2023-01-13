@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <Switch
+        android:id="@+id/KonumServisleri"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Konum Servisleri"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        tools:layout_editor_absoluteY="23dp" />
+
+    <Switch
+        android:id="@+id/KonumBilgileriAl"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="konum bilgileri al"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        tools:layout_editor_absoluteY="60dp" />
+
+    <Switch
+        android:id="@+id/KonumBilgileriGonder"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Konum Bilgileri Gonder"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        tools:layout_editor_absoluteY="96dp" />
+
+    <Button
+        android:id="@+id/bttnOnayla"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:onClick="Onayla"
+        android:text="Onayla"
+        tools:layout_editor_absoluteX="135dp"
+        tools:layout_editor_absoluteY="159dp" />
+</androidx.constraintlayout.widget.ConstraintLayout>

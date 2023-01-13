@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <EditText
+        android:id="@+id/txtSifre"
+        android:layout_width="378dp"
+        android:layout_height="81dp"
+        android:ems="10"
+        android:hint="şifreyi giriniz"
+        android:inputType="textPassword"
+        tools:layout_editor_absoluteX="323dp"
+        tools:layout_editor_absoluteY="139dp" />
+
+    <EditText
+        android:id="@+id/txtkullaniciAdi"
+        android:layout_width="376dp"
+        android:layout_height="83dp"
+        android:ems="10"
+        android:hint="kullanıcı adını giriniz"
+        android:inputType="textEmailAddress"
+        tools:layout_editor_absoluteX="320dp"
+        tools:layout_editor_absoluteY="28dp" />
+
+    <Button
+        android:id="@+id/btnKonturol"
+        android:layout_width="201dp"
+        android:layout_height="69dp"
+        android:onClick="Kontrol"
+        android:text="Button"
+        tools:layout_editor_absoluteX="416dp"
+        tools:layout_editor_absoluteY="223dp" />
+</androidx.constraintlayout.widget.ConstraintLayout>
